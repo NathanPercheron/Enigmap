@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Enigmap.Vues.Inscription">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="NavajoWhite">
+            <Grid>
+                <Label
+                    Text="Inscription"
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="Center"/>
+
+                <Entry
+                    x:Name="Pseudo"
+                    Placeholder="Entrez votre pseudo"
+                    Grid.Row="1"/>
+
+                <Entry
+                    x:Name="Mdp"
+                    Placeholder="Entrez votre mot de passe"
+                    Grid.Row="2"/>
+
+                <Button
+                    x:Name="BoutonPageInscription"
+                    Text="Inscription"
+                    BackgroundColor="DarkSeaGreen"
+                    HorizontalOptions="FillAndExpand"
+                    Grid.Row="3"/>
+
+
+
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

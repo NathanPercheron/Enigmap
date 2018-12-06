@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Enigmap.Vues.Menu">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="NavajoWhite">
+
+
+            <Grid>
+
+                <Label 
+                    Text="Bonjour et bienvenue"
+                    HorizontalOptions="Center"
+                    Grid.Row="1"/>
+                <Button
+                    x:Name="ButtonJouer"
+                    Text="Jouer"
+                    HorizontalOptions="Fill"
+                    Grid.Row="3"
+                    BackgroundColor="PaleVioletRed"/>
+            </Grid>
+
+            <Grid>
+                <Button
+                    x:Name="ButtonClassement"
+                    Text="Classement"
+                    HorizontalOptions="Fill"
+                    Grid.Row="0"
+                    BackgroundColor="CornflowerBlue"/>
+            </Grid>
+
+            <Grid>
+                <Button
+                    x:Name="ButtonOption"
+                    Text="Option"
+                    HorizontalOptions="Fill"
+                    Grid.Row="0"
+                    BackgroundColor="DimGray"/>
+            </Grid>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enigmap.Android", "Enigmap\Enigmap.Android\Enigmap.Android.csproj", "{AD72E5D1-8FC0-44A2-B75B-87DB759492DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enigmap", "Enigmap\Enigmap\Enigmap.csproj", "{84CD53FE-582C-4C4A-9B66-981F7A6FA720}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD72E5D1-8FC0-44A2-B75B-87DB759492DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD72E5D1-8FC0-44A2-B75B-87DB759492DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD72E5D1-8FC0-44A2-B75B-87DB759492DB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AD72E5D1-8FC0-44A2-B75B-87DB759492DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD72E5D1-8FC0-44A2-B75B-87DB759492DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD72E5D1-8FC0-44A2-B75B-87DB759492DB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{84CD53FE-582C-4C4A-9B66-981F7A6FA720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84CD53FE-582C-4C4A-9B66-981F7A6FA720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84CD53FE-582C-4C4A-9B66-981F7A6FA720}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{84CD53FE-582C-4C4A-9B66-981F7A6FA720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84CD53FE-582C-4C4A-9B66-981F7A6FA720}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84CD53FE-582C-4C4A-9B66-981F7A6FA720}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {74630F68-B2F5-4852-85C5-96DE24E809A0}
+	EndGlobalSection
+EndGlobal

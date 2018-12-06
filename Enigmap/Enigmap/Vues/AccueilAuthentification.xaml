@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Enigmap.Vues.AccueilAuthentification">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor ="NavajoWhite">
+
+            <Grid>
+                <Label
+                Text="Enigmap"
+                HorizontalOptions="Center"
+                VerticalOptions="Center" />
+
+                <Button
+                    x:Name="BoutonConnexion"
+                    Text="Connexion"
+                    Clicked="BoutonConnexion_Clicked"
+                    Grid.Row="3"
+                    BackgroundColor="Orange"
+                    HorizontalOptions="FillAndExpand"/>
+            </Grid>
+            
+            <Grid>
+                <Button
+                    x:Name="BoutonInscription"
+                    Text="Inscription"
+                    Clicked="BoutonInscription_Clicked"
+                    Grid.Row="0"
+                    BackgroundColor="Accent"
+                    HorizontalOptions="FillAndExpand"/>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
