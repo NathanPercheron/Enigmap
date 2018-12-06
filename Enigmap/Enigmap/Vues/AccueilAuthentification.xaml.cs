@@ -19,12 +19,12 @@ namespace Enigmap.Vues
 
         private void BoutonConnexion_Clicked(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new Connexion());
         }
 
         private void BoutonInscription_Clicked(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new Inscription());
         }
     }
 }
