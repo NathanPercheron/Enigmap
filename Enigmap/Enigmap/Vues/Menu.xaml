@@ -9,7 +9,7 @@
             <Grid>
 
                 <Label 
-                    Text="Bonjour et bienvenue"
+                    Text="Bonjour"
                     HorizontalOptions="Center"
                     Grid.Row="1"/>
                 <Button
