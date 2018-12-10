@@ -12,16 +12,19 @@
 
                 <Entry
                     x:Name="Pseudo"
+                    Text="{Binding Pseudo}"
                     Placeholder="Entrez votre pseudo"
                     Grid.Row="1"/>
                 
                 <Entry
                     x:Name="Mdp"
+                    Text="{Binding Mdp}"
                     Placeholder="Entrez votre mot de passe"
                     Grid.Row="2"/>
 
                 <Button
                     x:Name="BoutonPageConnexion"
+                    Command="{Binding BoutonPageConnexion}"
                     Text="Connexion"
                     BackgroundColor="DarkSeaGreen"
                     HorizontalOptions="FillAndExpand"

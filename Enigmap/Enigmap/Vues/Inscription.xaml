@@ -12,17 +12,20 @@
 
                 <Entry
                     x:Name="Pseudo"
+                    Text="{Binding PseudoInscription}"
                     Placeholder="Entrez votre pseudo"
                     Grid.Row="1"/>
 
                 <Entry
                     x:Name="Mdp"
+                    Text="{Binding MdpInscription}"
                     Placeholder="Entrez votre mot de passe"
                     Grid.Row="2"/>
 
                 <Button
                     x:Name="BoutonPageInscription"
                     Text="Inscription"
+                    Command="{Binding}"
                     BackgroundColor="DarkSeaGreen"
                     HorizontalOptions="FillAndExpand"
                     Grid.Row="3"/>
