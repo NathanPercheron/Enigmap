@@ -15,10 +15,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Apirest\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <EmbeddedResource Update="Vues\AccueilAuthentification.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
