@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace Enigmap.Vues
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Menu : ContentPage
+	public partial class MenuPage : ContentPage
 	{
-		public Menu ()
+		public MenuPage ()
 		{
 			InitializeComponent ();
 		}
