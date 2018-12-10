@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Enigmap.Vues.PageErreurConnexion">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="NavajoWhite">
+
+            <Grid>
+                <Image Source="error.png"
+                   WidthRequest="200"
+                   HeightRequest="200"
+                   Grid.Row="1"
+                   AnchorX="2"/>
+
+                <Label Text="Erreur de connexion, vous n'êtes peut-être pas inscris sur notre application"      
+                HorizontalOptions="Center"
+                XAlign="Center"
+                Grid.Row="2"/>
+                
+            </Grid>
+
+            <Button
+                x:Name="RetourConnexion"
+                Text="Se Reconnecter"
+                Clicked="RetourConnexion_Clicked"
+                BackgroundColor="CadetBlue"/>
+
+            <Button
+                x:Name="AllerInscription"
+                Text="S'inscrire"
+                Clicked="AllerInscription_Clicked"
+                BackgroundColor="IndianRed"/>
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -6,6 +6,6 @@ namespace Enigmap
 {
     class Constantes
     {
-        public static string BaseApiAddress => "http://172.17.2.164:8000/";
+        public static string BaseApiAddress => "http://10.0.2.2:8000/";
     }
 }
