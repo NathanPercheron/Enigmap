@@ -44,6 +44,10 @@ namespace Enigmap.VuesModéles
                     {
                         Application.Current.MainPage = new MenuPage();
                     }
+                    else
+                    {
+                        Application.Current.MainPage = new PageErreurConnexion();
+                    }
 
                 });
             }
