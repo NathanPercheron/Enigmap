@@ -17,7 +17,8 @@
                     Text="Jouer"
                     HorizontalOptions="Fill"
                     Grid.Row="3"
-                    BackgroundColor="PaleVioletRed"/>
+                    BackgroundColor="PaleVioletRed"
+                    Clicked="ButtonJouer_Clicked"/>
             </Grid>
 
             <Grid>

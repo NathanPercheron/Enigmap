@@ -16,5 +16,10 @@ namespace Enigmap.Vues
 		{
 			InitializeComponent ();
 		}
-	}
+
+        private void ButtonJouer_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new PageJouer());
+        }
+    }
 }
