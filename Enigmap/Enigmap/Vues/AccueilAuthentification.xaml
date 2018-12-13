@@ -17,7 +17,8 @@
                     Clicked="BoutonConnexion_Clicked"
                     Grid.Row="3"
                     BackgroundColor="Orange"
-                    HorizontalOptions="FillAndExpand"/>
+                    HorizontalOptions="FillAndExpand"
+                    Command="{Binding AllerConnexion}"/>
             </Grid>
             
             <Grid>
@@ -27,7 +28,8 @@
                     Clicked="BoutonInscription_Clicked"
                     Grid.Row="0"
                     BackgroundColor="Accent"
-                    HorizontalOptions="FillAndExpand"/>
+                    HorizontalOptions="FillAndExpand"
+                    Command="{Binding AllerInscription}"/>
             </Grid>
         </StackLayout>
     </ContentPage.Content>

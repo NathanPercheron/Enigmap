@@ -4,6 +4,10 @@
              x:Class="Enigmap.Vues.PageJouer">
     <ContentPage.Content>
         <StackLayout>
+            <Label
+                Text="qfsdgsdgsdg">
+                
+            </Label>
             <ListView  ItemsSource="{Binding LesDéfis}">
                 <ListView.ItemTemplate >
                     <DataTemplate>
@@ -19,10 +23,10 @@
                                     <ColumnDefinition Width="*"></ColumnDefinition>
                                     <ColumnDefinition Width="*"></ColumnDefinition>
                                 </Grid.ColumnDefinitions>
-                                <Label   Grid.Row="0" Grid.Column="1" Text="hello"/>
+                                
 
-                                <Label   Grid.Row="1" Grid.Column="1" TextColor="green" Text="{Binding nom_defis}" />
-                                <Label    Grid.Row="1" Grid.Column="2" Text="{Binding description_defis}" />
+                                <Label   Grid.Row="0" Grid.Column="1" TextColor="green" Text="{Binding NomDefis}" />
+                                <Label    Grid.Row="0" Grid.Column="2" Text="{Binding DescriptionDefis}" />
 
 
                             </Grid>

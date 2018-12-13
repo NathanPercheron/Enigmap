@@ -7,6 +7,9 @@ using System.Text;
 using System.Threading.Tasks;
 using Enigmap.Modéles;
 using Enigmap.Apirest;
+using System.Windows.Input;
+using Xamarin.Forms;
+using Enigmap.Vues;
 
 namespace Enigmap.VuesModéles
 {
@@ -54,6 +57,20 @@ namespace Enigmap.VuesModéles
         #endregion
 
         #region commandes
+
+        public ICommand BoutonJouer
+        {
+            get
+            {
+                return new Command(async () =>
+                {
+                    {
+                        Application.Current.MainPage = new PageJouer();
+                    }
+
+                });
+            }
+        }
 
         public async Task ListerDéfis()
         {
