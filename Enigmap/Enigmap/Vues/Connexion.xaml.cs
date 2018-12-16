@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Enigmap.VuesModéles;
+using Enigmap.Vues;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -17,6 +18,7 @@ namespace Enigmap.Vues
 		{
 			InitializeComponent ();
             BindingContext = new VuesModélesConnexion();
+            
 		}
 	}
 }

@@ -30,8 +30,6 @@
                     HorizontalOptions="FillAndExpand"
                     Grid.Row="3"/>
 
-
-
             </Grid>
         </StackLayout>
     </ContentPage.Content>

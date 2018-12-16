@@ -43,6 +43,7 @@ namespace Enigmap.VuesModéles
                     if (resultat)
                     {
                         Application.Current.MainPage = new MenuPage();
+                        
                     }
                     else
                     {
@@ -53,6 +54,11 @@ namespace Enigmap.VuesModéles
             }
         }
 
+
+
+        #endregion
+
+        #region Méthodes
         #endregion
 
     }
