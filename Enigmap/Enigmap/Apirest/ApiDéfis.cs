@@ -19,7 +19,7 @@ namespace Enigmap.Apirest
 
             var client = new HttpClient();
 
-            var json = await client.GetStringAsync(Constantes.BaseApiAddress + "api/defis.json");
+            var json = await client.GetStringAsync(Constantes.BaseApiAddress + "api/Défis.json");
             JsonConvert.DeserializeObject<List<Défis>>(json);
 
         }

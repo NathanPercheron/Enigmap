@@ -11,8 +11,8 @@ namespace Enigmap.Modéles
 
         #region Attributs
         private int _id;
-        private string nomDefis;
-        private string descriptionDefis;
+        private string _nom_defis;
+        private string _description_defis;
 
         public static ArrayList CollClassDéfis = new ArrayList();
 
@@ -21,11 +21,11 @@ namespace Enigmap.Modéles
         #endregion
 
         #region Constructeurs
-        public Défis(int id, string NomDefis, string DescriptionDefis)
+        public Défis(int id, string nom_defis, string description_defis)
         {
             _id = id;
-            nomDefis = NomDefis;
-            descriptionDefis = DescriptionDefis;
+            _nom_defis = nom_defis;
+            _description_defis = description_defis;
 
             CollClassDéfis.Add(this);
         }
@@ -34,8 +34,8 @@ namespace Enigmap.Modéles
 
         #region Get-set
         public int Id { get => _id; set => _id = value; }
-        public string NomDefis { get => NomDefis; set => NomDefis = value; }
-        public string DescriptionDefis { get => descriptionDefis; set => descriptionDefis = value; }
+        public string Nom_defis { get => _nom_defis; set => _nom_defis = value; }
+        public string Description_defis { get => _description_defis; set => _description_defis = value; }
 
         #endregion
 

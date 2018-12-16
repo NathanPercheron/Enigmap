@@ -18,7 +18,6 @@
                     HorizontalOptions="Fill"
                     Grid.Row="3"
                     BackgroundColor="PaleVioletRed"
-                    Command="{Binding BoutonJouer}"
                     Clicked="ButtonJouer_Clicked"/>
             </Grid>
 

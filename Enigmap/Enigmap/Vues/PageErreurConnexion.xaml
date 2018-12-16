@@ -23,15 +23,13 @@
                 x:Name="RetourConnexion"
                 Text="Se Reconnecter"
                 Clicked="RetourConnexion_Clicked"
-                BackgroundColor="CadetBlue"
-                Command="{Binding BoutonRetourConnexion}"/>
+                BackgroundColor="CadetBlue"/>
 
             <Button
                 x:Name="AllerInscription"
                 Text="S'inscrire"
                 Clicked="AllerInscription_Clicked"
-                BackgroundColor="IndianRed"
-                Command="{Binding BoutonRetourInscription}"/>
+                BackgroundColor="IndianRed"/>
 
 
 
